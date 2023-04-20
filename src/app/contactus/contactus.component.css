@@ -1,0 +1,120 @@
+.contact-us {
+    max-width: 700px;
+    /* height:400px; */
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-us h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us label {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .contact-us input,
+  .contact-us textarea {
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .contact-us textarea {
+    height: 150px;
+  }
+  
+  .contact-us button {
+    background-color: #7897c0;
+    background-image: url("instagram.png");
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-us button:hover {
+    background-color: #0069d9;
+  }
+  
+  .contact-us .success-message,
+  .contact-us .error-message {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .contact-us .success-message {
+    background-color: #d4edda;
+    color: #155724;
+  }
+  
+  .contact-us .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+  }
+  
+  .contact-us .social-media {
+    margin-top: 40px;
+  }
+  
+  .contact-us .social-media h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  
+  .contact-us .social-icons a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+    transition: all 0.3s ease;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .contact-us .social-icons a:hover {
+    background-color: #0069d9;
+  }
+  

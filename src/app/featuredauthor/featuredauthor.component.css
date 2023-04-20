@@ -1,0 +1,49 @@
+.featured-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .author-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .author-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-image: url("rolli.jpeg");
+    background-image: url("stef.jpeg");
+    background-image: url("agatha.jpeg");
+    background-image: url("jay.jpg");
+    background-image: url("Colleen.png");
+
+  }
+  
+  .author-info {
+    margin-left: 20px;
+    color: aliceblue;
+  }
+  
+  .author-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .author-info p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+  }
+  

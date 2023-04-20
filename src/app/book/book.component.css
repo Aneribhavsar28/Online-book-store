@@ -1,0 +1,47 @@
+.book {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+
+  }
+  books{
+    background-image: url("itends.jpeg");
+    background-image: url("stars.jpeg");
+    background-image: url("think.jpeg");
+    background-image: url("ikigai.jpeg");
+    background-image: url("alchemist.jpeg");
+    background-image: url("atomic.jpeg");
+    background-image: url("touch.jpeg");
+    background-image: url("build.jpeg");
+    background-image: url("life.jpeg");
+    background-image: url("FUCK.png");
+    background-image: url("epic1.png");
+    background-image: url("epic2.jpeg");
+  }
+  
+  .book img {
+    width: 340px;
+    height: 350px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    /* background-image: url("itends.jpeg");  */
+    /* background-image: url("starts.jpeg");  */
+  }
+  
+  .book h2 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: antiquewhite;
+  }
+  
+  .book p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: aliceblue;
+  }
+  
+  
